@@ -1,2 +1,2 @@
 # Curriculum-Vanessa
-![ScreenShot](S1_desktop.png)
+![ScreenShot](ScreenShot/S1_desktop.png)
