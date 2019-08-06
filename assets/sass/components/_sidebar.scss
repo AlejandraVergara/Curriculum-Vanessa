@@ -1,0 +1,57 @@
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $aqua;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: $blacko;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: $small;
+  font-family: $lato;
+  font-weight: $boldo;
+  color: $marine;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: $negru;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding-left: 30px;
+  padding-top: 30px;
+  font-family: $lato;
+  h1 {
+    font-weight: $blacko;
+  }
+
+  h2 {
+    font-weight: $blacko;
+    padding-bottom: 30px;
+  }
+
+  h4 {
+    font-weight: $boldo;
+  }
+
+  p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: $lighto;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

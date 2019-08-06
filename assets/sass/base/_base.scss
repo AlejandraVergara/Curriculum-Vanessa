@@ -1,0 +1,20 @@
+
+ /* Base Styles
+   ========================================================================== */
+/**
+* Define el tamaño del diseño a 1280px
+*/
+body {
+    width: 100%;
+    margin: 0 auto; 
+    background-color: $white;
+    font-weight: $lighto;
+    font-size: $medium;
+    color: $marine;
+  }
+
+  section {
+    font-family: $lato; 
+    padding: 20px;
+    border-bottom: 1px solid ;
+  }
